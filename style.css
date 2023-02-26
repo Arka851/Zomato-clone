@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width: 100%;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    position: relative;
+    
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 440px;
+    
+}
+.image-container img{
+   
+    width: 101%;
+    height: 137%;
+    /* position: absolute; */
+    object-fit: cover;
+    transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute;
+    top: 6%;
+    width: 98%;
+    color: white; 
+}
+.nav{
+ 
+    font-weight: 550;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color: inherit;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: right;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 0.6rem;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.zomato-logo{
+    margin-top: 104px;
+    width: 289px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top: -0.1px;
+}
+.header-body-section-discover{
+    font-size: 40px;
+}
+.header-body-section-discover-moreto{
+    margin-top: -46px;
+    font-size: 40px;
+    align-items: center;
+}
+.search-container{
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 760px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: rgb(104, 103, 103);
+    font-size: 18px;
+    
+}
+.fa-location-dot{
+    color: rgb(230, 139, 139);
+    font-size: 18px;
+    
+}
+
+.caret-up{
+    
+    color: black;
+    
+}
+.detectionLocation input{
+    border: none;
+    font-size: 15px;
+    width: 180;
+}
+
+
+.line{
+    padding: 10px;
+}
+.search-items input{
+    max-width: 100%;
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+    
+}
